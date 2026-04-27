@@ -6,5 +6,5 @@
 *.yml @payment-management/leads
 Dockerfile @payment-management/leads
 
-# Auth-related frontend logic - requires lead awareness
+# Auth-related frontend logic — requires lead awareness
 src/auth/ @payment-management/frontend @payment-management/leads
