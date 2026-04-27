@@ -1,1 +1,10 @@
-* @payment-management/frontend @payment-management/leads
+# Default: frontend owns frontend code
+* @payment-management/frontend
+
+# CI / automation / workflows
+.github/ @payment-management/leads
+*.yml @payment-management/leads
+Dockerfile @payment-management/leads
+
+# Auth-related frontend logic — requires lead awareness
+src/auth/ @payment-management/frontend @payment-management/leads
