@@ -1,5 +1,5 @@
 # Default: frontend owns frontend code
-* @payment-management/frontend
+@payment-management/frontend
 
 # CI / automation / workflows
 .github/ @payment-management/leads
