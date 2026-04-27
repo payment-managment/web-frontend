@@ -2,9 +2,9 @@
 * @payment-managment/frontend
 
 # CI / automation / workflows
-.github/ @payment-managment/leads
-*.yml @payment-managment/leads
-Dockerfile @payment-managment/leads
+.github/ @payment-managment/lead
+*.yml @payment-managment/lead
+Dockerfile @payment-managment/lead
 
 # Auth-related frontend logic — requires lead awareness
-src/auth/ @payment-managment/frontend @payment-managment/leads
+src/auth/ @payment-managment/frontend @payment-managment/lead
